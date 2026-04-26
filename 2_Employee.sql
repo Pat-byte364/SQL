@@ -1,0 +1,30 @@
+--  Create table Employee
+-- (Id int unique primary key,
+-- First_name varchar(100) not null,
+-- Last_name varchar(100) not null,
+-- Email varchar(100) unique not null,
+-- Phone_No varchar(15) unique not null,
+-- Hire_date date not null,
+-- Job_id varchar(100)  not null,
+-- Salary int not null,
+-- Commision_pct float not null,
+-- Manager_id int  not null,
+-- Dept_id int  not null
+-- );
+-- INSERT INTO Employee VALUES
+-- (100, 'John', 'Austin', 'john.austin@email.com', '9876543210', '2008-05-10', 'DEV', 4500, 0.10, 52, 60),
+-- (101, 'Alice', 'Smith', 'alice.smith@email.com', '9876543211', '2012-07-15', 'HR', 5000, 0.05, 100, 70),
+-- (102, 'Bob', 'Brown', 'bob.brown@email.com', '9876543212', '2015-03-20', 'DEV', 6000, 0.08, 100, 80),
+-- (103, 'Andrew', 'Austin', 'andrew.austin@email.com', '9876543213', '2011-11-25', 'FIN', 4800, 0.07, 101, 60),
+-- (104, 'David', 'Lee', 'david.lee@email.com', '9876543214', '2009-01-01', 'HR', 3000, 0.02, 102, 90),
+-- (105, 'Ankit', 'Verma', 'ankit.verma@email.com', '9876543215', '2018-06-30', 'DEV', 7000, 0.15, 100, 80),
+-- (106, 'Priya', 'Sharma', 'priya.sharma@email.com', '9876543216', '2020-09-10', 'FIN', 5500, 0.10, 103, 70),
+-- (107, 'Aman', 'Gupta', 'aman.gupta@email.com', '9876543217', '2013-04-18', 'HR', 4800, 0.06, 101, 60),
+-- (108, 'Neha', 'Kapoor', 'neha.kapoor@email.com', '9876543218', '2016-12-05', 'DEV', 5200, 0.09, 100, 80),
+-- (109, 'Arjun', 'Mehta', 'arjun.mehta@email.com', '9876543219', '2010-01-02', 'FIN', 4700, 0.04, 103, 70);
+
+-- SELECT DISTINCT Manager_Id FROM EMPLOYEES;
+-- DELETE FROM EMPLOYEES WHERE Employee_Id = 102;
+-- update  Employee set Salary = 50000 where Id = 100
+-- select * from employee where Hire_date > '2010-01-01'
+-- select * from employee where First_name like 'A%'
